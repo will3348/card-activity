@@ -3,13 +3,19 @@
   padding: 0px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+main{
+  display:flex;
+  justify-content:center;
+  gap:5rem;
+  flex-wrap: wrap;
+}
 .card{
   border: 2px solid blue;
   width: 231px;
   height: auto;
   flex-wrap: wrap;
-  margin: 100px auto;
-  box-shadow: rgb(20, 79, 206) 5px 5px 20px;
+  margin: 0px auto;
+  box-shadow: rgb(20, 79, 206) 5px 5px 10px;
 }
 .name {
   text-align: center;
@@ -17,8 +23,8 @@
 .pic-wrapper{
   display: flex;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   overflow: hidden;
   border: khaki 2px solid;
@@ -47,8 +53,6 @@ li{
   width: 150px;
   height: auto;
   background-color: rgb(8, 72, 247);
-  /* display: flex; */
-  /* justify-content: center; */
   margin: 20px auto;
   padding-bottom: 5px;
   border-radius: 5px;
@@ -63,7 +67,6 @@ a{
   padding-top: 5px;
   text-decoration: none;
  color: whitesmoke;
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
 }
 .introduce{
   padding: 20px;
